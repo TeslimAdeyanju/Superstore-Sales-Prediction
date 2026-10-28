@@ -5,6 +5,10 @@
 **Status:** Research and deployment prototype. Model performance and production readiness require additional validation.  
 **Stack:** Python, pandas, NumPy, scikit-learn, Jupyter, Flask, Pipenv and Docker.
 
+![Superstore Sales Prediction project workflow and illustrative model overview](a_clean_flat_infographic_style_diagram_on_a_whit%20%281%29.png)
+
+> **Visual note:** The infographic illustrates the project workflow. Model performance figures and deployment claims shown in the image are historical or illustrative and are not independently verified. See the evaluation and limitations sections below.
+
 ## Executive Summary
 
 Retail managers need to understand where transaction profit is generated and which orders carry a risk of loss. This project explores the Superstore transactions dataset and uses logistic regression to classify transactions according to whether their recorded profit is positive.
