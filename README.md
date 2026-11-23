@@ -106,7 +106,7 @@ This project addresses these challenges through:
 ```
 SuperStore-Sales-Analysis-and-Prediction/
 │
-├── 📓 sales-forecasting-with-logistic-regression.ipynb  # Main analysis notebook
+├── 📓 sales_forecasting_with_logistic_regression.ipynb  # Main analysis notebook
 ├── 📊 dataset.csv                                       # SuperStore dataset
 ├── 📋 README.md                                         # Project documentation
 ├── 🐙 .gitignore                                        # Git ignore configuration
@@ -116,7 +116,7 @@ SuperStore-Sales-Analysis-and-Prediction/
     ├── 📦 Pipfile                                       # Dependency management
     ├── 🔒 Pipfile.lock                                  # Locked dependencies
     ├── 🎯 predict.py                                    # Flask API application
-    ├── 🧪 predict-test.py                               # API testing script
+    ├── 🧪 predict_test.py                               # API testing script
     └── 🏋️ train.py                                       # Model training script
 ```
 
@@ -211,7 +211,7 @@ jupyter>=1.0.0
 
 3. **Launch Jupyter Notebook**
    ```bash
-   jupyter notebook sales-forecasting-with-logistic-regression.ipynb
+   jupyter notebook sales_forecasting_with_logistic_regression.ipynb
    ```
 
 4. **Run the Analysis**
@@ -248,7 +248,7 @@ jupyter>=1.0.0
 
 5. **Test the API**
    ```bash
-   python predict-test.py
+   python predict_test.py
    ```
 
 ### Docker Deployment
